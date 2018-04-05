@@ -1,0 +1,30 @@
+{
+  "name": "webpack-bundle-analyzer-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/DanielHoffmann/webpack-bundle-analyzer-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url":
+      "https://github.com/DanielHoffmann/webpack-bundle-analyzer-bug/issues"
+  },
+  "homepage":
+    "https://github.com/DanielHoffmann/webpack-bundle-analyzer-bug#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "jquery": "^3.3.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "webpack": "^4.5.0",
+    "webpack-bundle-analyzer": "^2.11.1"
+  }
+}
